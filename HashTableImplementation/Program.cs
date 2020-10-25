@@ -16,6 +16,16 @@ namespace HashTableImplementation
             hash.Add("5", "they");
             hash.Add("6", "are");
             hash.Add("7", "paranoid");
+            hash.Add("8", "but");
+            hash.Add("9", "because");
+            hash.Add("10", "they");
+            hash.Add("11", "keep");
+            hash.Add("12", "putting");
+            hash.Add("13", "themselves");
+            hash.Add("14", "into");
+            hash.Add("15", "paranoid");
+            hash.Add("16", "avoidable");
+            hash.Add("17", "situation");
 
             string result6 = hash.Get("6");
             Console.WriteLine("Value at 6th index : " + result6);
@@ -23,8 +33,10 @@ namespace HashTableImplementation
             string result2 = hash.Get("2");
             Console.WriteLine("Value at 2th index : " + result2);
 
-            string result4 = hash.Get("4");
-            Console.WriteLine("Value at 4th index : " + result4);
+            string result16 = hash.Get("16");
+            Console.WriteLine("Value at 16th index : " + result16);
+
+            hash.Remove("16");
         }
     }
 }
